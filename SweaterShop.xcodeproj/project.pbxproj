@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1913F7082B1C7F2400F53686 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913F7072B1C7F2400F53686 /* Product.swift */; };
+		1913F70B2B1C843B00F53686 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1913F70A2B1C843B00F53686 /* ProductCard.swift */; };
 		198ABD6C2B19EA5300FCB71C /* SweaterShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198ABD6B2B19EA5300FCB71C /* SweaterShopApp.swift */; };
 		198ABD6E2B19EA5300FCB71C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198ABD6D2B19EA5300FCB71C /* ContentView.swift */; };
 		198ABD702B19EA5D00FCB71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198ABD6F2B19EA5D00FCB71C /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1913F7072B1C7F2400F53686 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1913F70A2B1C843B00F53686 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		198ABD682B19EA5300FCB71C /* SweaterShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweaterShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		198ABD6B2B19EA5300FCB71C /* SweaterShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweaterShopApp.swift; sourceTree = "<group>"; };
 		198ABD6D2B19EA5300FCB71C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1913F7062B1C7EE500F53686 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1913F7072B1C7F2400F53686 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1913F7092B1C840600F53686 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1913F70A2B1C843B00F53686 /* ProductCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1913F70C2B1C9F5D00F53686 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				198ABD6D2B19EA5300FCB71C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		198ABD5F2B19EA5300FCB71C = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				198ABD6B2B19EA5300FCB71C /* SweaterShopApp.swift */,
-				198ABD6D2B19EA5300FCB71C /* ContentView.swift */,
+				1913F70C2B1C9F5D00F53686 /* Views */,
+				1913F7092B1C840600F53686 /* Components */,
+				1913F7062B1C7EE500F53686 /* Models */,
 				198ABD6F2B19EA5D00FCB71C /* Assets.xcassets */,
 				198ABD712B19EA5D00FCB71C /* Preview Content */,
 			);
@@ -139,6 +169,8 @@
 			files = (
 				198ABD6E2B19EA5300FCB71C /* ContentView.swift in Sources */,
 				198ABD6C2B19EA5300FCB71C /* SweaterShopApp.swift in Sources */,
+				1913F7082B1C7F2400F53686 /* Product.swift in Sources */,
+				1913F70B2B1C843B00F53686 /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

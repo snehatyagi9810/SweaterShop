@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ForEach(productList, id: \.id) {product in
+            ProductCard(product: product)
+        }
     }
 }
 
